@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, #1a2238 0%, #0d1322 60%, #05070d 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: #111827;
+    padding: 30px 25px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #ef4444;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 20px rgba(239, 68, 68, 0.25);
+    width: 100%;
+    max-width: 360px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ef4444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3.5px solid #ef4444;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px auto;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #38bdf8;
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+    padding: 0 10px;
+}
+
+li {
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.8;
+}
